@@ -2,7 +2,7 @@
  * @Description: 表格组件
  * @Author: wish.WuJunLong
  * @Date: 2020-12-22 09:18:07
- * @LastEditTime: 2021-01-06 09:18:30
+ * @LastEditTime: 2021-01-06 09:22:49
  * @LastEditors: wish.WuJunLong
  */
 let tableData = [];
@@ -17,20 +17,19 @@ for (let i = 0; i < 50; i++) {
 }
 
 class TableTemplate extends React.Component {
-  openModal(){
-    
-  }
+  openModal() {}
   render() {
     return (
-      <div className="table_template"> 
+      <div className="table_template">
         <div>
           <antd.Table border rowKey="id" dataSource={tableData}>
-            <antd.Table.Column title="重要操作" render={(text) => <div onClick={this.openModal}>支付</div>} />
+            <antd.Table.Column
+              title="重要操作"
+              render={(text) => <div onClick={this.openModal}>支付</div>}
+            />
             <antd.Table.Column title="利润中心" dataIndex="project" />
             <antd.Table.Column title="规则" dataIndex="rule" />
-            <antd.Table.Column title="有进度" dataIndex="schedule" 
-              
-            />
+            <antd.Table.Column title="有进度" dataIndex="schedule" />
             <antd.Table.Column
               title="状态"
               dataIndex="status"
@@ -57,7 +56,6 @@ class TableTemplate extends React.Component {
             />
           </antd.Table>
         </div>
-
       </div>
     );
   }
