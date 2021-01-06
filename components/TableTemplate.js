@@ -2,9 +2,11 @@
  * @Description: 表格组件
  * @Author: wish.WuJunLong
  * @Date: 2020-12-22 09:18:07
- * @LastEditTime: 2021-01-06 09:22:49
- * @LastEditors: wish.WuJunLong
+ * @LastEditTime: 2021-01-06 09:29:41
+ * @LastEditors: Please set LastEditors
  */
+
+ 
 let tableData = [];
 for (let i = 0; i < 50; i++) {
   tableData.push({
