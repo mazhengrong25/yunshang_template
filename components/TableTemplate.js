@@ -2,7 +2,7 @@
  * @Description: 表格组件
  * @Author: wish.WuJunLong
  * @Date: 2020-12-22 09:18:07
- * @LastEditTime: 2021-01-05 09:37:22
+ * @LastEditTime: 2021-01-06 09:18:30
  * @LastEditors: wish.WuJunLong
  */
 let tableData = [];
@@ -16,16 +16,9 @@ for (let i = 0; i < 50; i++) {
   });
 }
 
-let isModalVisible = false
-
-// function getProgressData(val) {
-//   return <Progress percent={val} />
-// }
-
 class TableTemplate extends React.Component {
   openModal(){
-    isModalVisible = true
-    console.log(isModalVisible)
+    
   }
   render() {
     return (
@@ -64,13 +57,6 @@ class TableTemplate extends React.Component {
             />
           </antd.Table>
         </div>
-
-
-        <antd.Modal title="Basic Modal" visible={isModalVisible}>
-          <p>Some contents...</p>
-          <p>Some contents...</p>
-          <p>Some contents...</p>
-        </antd.Modal>
 
       </div>
     );
