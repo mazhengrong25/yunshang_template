@@ -1,0 +1,73 @@
+.detail_content {
+
+}
+.detail_content .content_title {
+    
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    border: 1px solid #E7E8EC;
+    padding: 13px 24px;
+}
+.detail_content .content_small_title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    padding: 16px;
+}
+.detail_content .content_div {
+    padding: 16px;
+}
+.detail_content .content_button {
+    padding-left: 44%;
+}
+.detail_content .content_div p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+.detail_content .content_div .div_content {
+    display: block;
+}
+.detail_content .content_div .div_content .div_span {
+    display: inline-block;
+}
+.detail_content .content_div .div_content .div_span .span_title{
+    
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+    margin-right: 12px;
+}
+.detail_content .content_div .div_content .div_span .span_content {
+    
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+/* 组件 */
+.ant-radio-button-wrapper-checked:hover {
+    color: #fff;
+    background: #0070E2;
+}
+.ant-radio-group {
+    padding: 24px;
+}
+.ant-tag-has-color, .ant-tag-has-color .anticon-close, 
+.ant-tag-has-color .anticon-close:hover, .ant-tag-has-color a, .ant-tag-has-color a:hover {
+    cursor: pointer;
+}
+.ant-radio-button-wrapper-checked {
+    color: #fff;
+    background-color: #0070E2;
+}
+.ant-table-bordered .ant-table-tbody > tr:nth-child(2n+1) {
+    background-color: #fff;
+}
+.ant-table-thead > tr > th {
+    background-color: #f3f3f3;
+}
+.ant-btn-primary {
+    background-color: #0070E2;
+    border-color: #0070E2;
+}

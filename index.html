@@ -2,8 +2,8 @@
  * @Description: 模板主页
  * @Author: wish.WuJunLong
  * @Date: 2020-11-26 09:33:42
- * @LastEditTime: 2021-01-04 14:12:50
- * @LastEditors: wish.WuJunLong
+ * @LastEditTime: 2021-02-02 11:38:36
+ * @LastEditors: mzr
 -->
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -12,38 +12,43 @@
     <meta http-equiv="x-ua-compatible" content="IE=Edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="js/library/polyfill.min.js"></script>
-    <script src="js/library/runtime.js"></script>
-    <script src="js/library/browser.min.js"></script>
 
-    <script
-      src="https://unpkg.com/react@16/umd/react.development.js"
-      crossorigin
-    ></script>
-    <script
-      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
-      crossorigin
-    ></script>
+    <!--[if IE]>
+      <script src="js/library/polyfill.min.js"></script>
+      <script src="js/library/runtime.js"></script>
+    <![endif]-->
 
     <script src="js/library/browser.min.js"></script>
+
+    <script src="js/library/react.development.js" crossorigin></script>
+    <script src="js/library/react-dom.development.js" crossorigin></script>
+
 
     <script src="js/library/moment.min.js"></script>
 
     <script src="js/library/antd.min.js"></script>
     <link rel="stylesheet" href="style/library/antd.min.css" />
-
-    
+    <link rel="stylesheet" href="page/List/List.css" />
+    <link rel="stylesheet" href="page/Detail/Detail.css" />
+    <link rel="stylesheet" href="page/Edit/Edit.css" />
   </head>
   <body>
     <div class="index">
-      <div id="app"></div>
-      <div id="HeaderTemplate"></div>
+      <!-- <div id="app"></div> -->
+      <!-- <div id="HeaderTemplate"></div>  -->
+      <!-- <div id="edit"></div> -->
+      <div id="list"></div>
+      <!-- <div id="detail"></div> -->
+      <!-- <div id="NavTemplate"></div> -->
     </div>
-    
   </body>
-  
-  <script type="text/babel" src="components/App.js"></script>
+
+  <!-- <script type="text/babel" src="components/App.js"></script> -->
   <!-- <script type="text/babel" src="components/HeaderTemplate.js"></script> -->
-  <script type="text/babel" src="components/TableTemplate.js"></script>
-  
+  <!-- <script type="text/babel" src="components/TableTemplate.js"></script> -->
+  <!-- 页面 -->
+  <script type="text/babel" src="page/List/List.js"></script>                   
+  <!-- <script type="text/babel" src="page/Detail/Detail.js"></script> -->
+  <!-- <script type="text/babel" src="page/Edit/Edit.js"></script> -->
+  <!-- <script type="text/babel" src="components/NavTemplate/NavTemplate.js"></script> -->
 </html>

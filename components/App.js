@@ -2,14 +2,14 @@
  * @Description: 
  * @Author: wish.WuJunLong
  * @Date: 2020-12-14 15:38:28
- * @LastEditTime: 2020-12-14 15:47:41
- * @LastEditors: wish.WuJunLong
+ * @LastEditTime: 2021-01-06 09:33:08
+ * @LastEditors: Please set LastEditors
  */
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      message: "公用组件",
+      message: "公用组件11",
     };
   }
   render() {

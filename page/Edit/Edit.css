@@ -1,0 +1,116 @@
+.ant-input {
+    
+    border: 1px solid #CCCCCC;
+    height: 36px;
+}
+.ant-input:focus .ant-input:hover {
+    border-color: #ccc
+}
+.ant-checkbox-group-item {
+    margin-right: 40px;
+}
+.ant-checkbox + span, .ant-checkbox-wrapper + span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+.ant-upload-list-item {
+    width: 90%;
+    margin-left: 104px;
+    background-color: #F3F3F3;
+}
+.ant-select, .ant-select ol, .ant-select ul{
+    margin-right: 8px;
+}
+.ant-select-selection {
+    border:1px solid #ccc;
+}
+.ant-select-selection--single {
+    height: 36px;
+}
+.ant-calendar-range-picker-input {
+    text-align: left;
+}
+.ant-btn {
+    margin-right: 8px;
+}
+.ant-btn-primary:focus, .ant-btn-primary:hover {
+    background-color: #0070e2;
+}
+/* .ant-upload-list-item-info {
+    padding: 16px 16px 16px 0;
+} */
+
+/* .ant-upload-list-item-info .anticon-loading, .ant-upload-list-item-info .anticon-paper-clip {
+    top:0px;
+    padding: 5px;
+} */
+/*  */
+.edit_content {
+    background-color: rgba(246, 247, 251, 1);
+}
+.edit_content .content_title {
+    
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    border: 1px solid #E7E8EC;
+    padding: 13px 24px;
+    background-color: #fff;
+
+}
+.edit_content .content_item {
+    display: inline;
+
+}
+.edit_content .content_button {
+    padding-left: 44%;
+    background-color: #fff;
+}
+.edit_content .content_item .item_div {
+    display: block;
+    background-color: #fff;
+}
+.edit_content .content_item .item_div .item_com {
+    display: inline-block;
+    padding: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+.edit_content .content_item .item_div .item_operate {
+    display: inline;
+}
+.edit_content .content_item .item_div  .upload_file {
+    display: inline-block;
+    width: 168px;
+    height: 36px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.edit_content .content_item .item_div  .upload_file span {
+    
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+.edit_content .content_item .item_div  .upload_file .img_div {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+.edit_content .content_item .item_div  .upload_file .img_div img {
+    width: 100%;
+    height: 100%;
+}
+.edit_content .content_item .item_div .item_operate .ant-radio-group {
+    padding: 0px;
+}
+.edit_content .content_item .item_div .item_operate .ant-switch-checked {
+    background-color:#32D197 ;
+}
+.edit_content .content_item .item_div .item_operate > .textarea .ant-input {
+    width: 90%;
+    min-height: 104px;
+}
